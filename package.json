@@ -1,0 +1,38 @@
+{
+  "name": "esnext-webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple JavaScript boilerplate for babel and webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfaslash/esnext-webpack-boilerplate.git"
+  },
+  "keywords": [
+    "esNext",
+    "webpack",
+    "babel"
+  ],
+  "author": "alfaslash (Artem Roshko)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfaslash/esnext-webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/alfaslash/esnext-webpack-boilerplate#readme",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-loader": "^6.2.5",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "postcss-loader": "^0.13.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2"
+  }
+}
