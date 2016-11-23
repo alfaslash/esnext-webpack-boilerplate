@@ -24,15 +24,15 @@
   },
   "homepage": "https://github.com/alfaslash/esnext-webpack-boilerplate#readme",
   "devDependencies": {
-    "babel-cli": "^6.16.0",
-    "babel-loader": "^6.2.5",
+    "babel-cli": "^6.18.0",
+    "babel-loader": "^6.2.8",
     "babel-polyfill": "^6.16.0",
     "babel-preset-latest": "^6.16.0",
-    "css-loader": "^0.25.0",
+    "css-loader": "^0.26.0",
     "less": "^2.7.1",
     "less-loader": "^2.2.3",
-    "postcss-loader": "^0.13.0",
+    "postcss-loader": "^1.1.1",
     "style-loader": "^0.13.1",
-    "webpack": "^1.13.2"
+    "webpack": "^1.13.3"
   }
 }
