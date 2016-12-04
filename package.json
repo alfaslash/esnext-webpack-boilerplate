@@ -1,12 +1,13 @@
 {
   "name": "esnext-webpack-boilerplate",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple JavaScript boilerplate for babel and webpack",
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "watch": "webpack --watch",
-    "build": "webpack"
+    "start": "node server.js",
+    "build-watch": "webpack --config ./webpack-dependence/webpack.dev.js --progress --watch --watch-poll",
+    "build": "webpack --config ./webpack-dependence/webpack.prod.js --optimize-dedupe --progress"
   },
   "repository": {
     "type": "git",
@@ -28,11 +29,14 @@
     "babel-loader": "^6.2.8",
     "babel-polyfill": "^6.16.0",
     "babel-preset-latest": "^6.16.0",
-    "css-loader": "^0.26.0",
+    "css-loader": "^0.26.1",
+    "express": "^4.14.0",
+    "imagemin-webpack-plugin": "^1.4.4",
     "less": "^2.7.1",
     "less-loader": "^2.2.3",
-    "postcss-loader": "^1.1.1",
+    "postcss-loader": "^1.2.0",
     "style-loader": "^0.13.1",
-    "webpack": "^1.13.3"
+    "webpack": "^1.13.3",
+    "webpack-dev-middleware": "^1.8.4"
   }
 }

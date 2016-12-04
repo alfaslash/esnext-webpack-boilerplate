@@ -1,3 +1,5 @@
 const a = 5;
 const b = 3;
-console.log(a + b);
+
+const c = a + b;
+export default c;
